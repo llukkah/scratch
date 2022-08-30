@@ -5,8 +5,8 @@ class Header extends Component {
   render() {
     return (
       <>
-        <p>hello world header</p>
         <div className="headerLinks">
+          <Link to="/">Home</Link>
           <Link to="/iframe">Iframe</Link>
           <Link to="/elements">Elements</Link>
         </div>

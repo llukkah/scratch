@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Iframe from "react-iframe";
 import Header from "./header.js";
-class Iframes extends Component {
+
+class Elements extends Component {
   render() {
     return (
       <>
         <Header />
-        <p>Iframe full</p>
-        <p>Iframe empty</p>
+        <p>Elements Full</p>
+        <p>Elements Empty</p>
       </>
     );
   }
 }
 
-export default Iframes;
+export default Elements;
