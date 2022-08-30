@@ -6,8 +6,20 @@ class Elements extends Component {
     return (
       <>
         <Header />
-        <p>Elements Full</p>
-        <p>Elements Empty</p>
+        <div className="elementsContainer">
+          <div className="elementsFull">
+            <p>Paragraph</p>
+            <div>Div</div>
+            <a src="https://www.google.com">Anchor</a>
+            <span>span</span>
+          </div>
+          <div className="elementsEmpty">
+            <p></p>
+            <div></div>
+            <a src=""></a>
+            <span></span>
+          </div>
+        </div>
       </>
     );
   }

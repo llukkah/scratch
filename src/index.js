@@ -13,7 +13,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/iframe" element={<Iframes />} />
-      <Route path="elements" element={<Elements />} />
+      <Route path="/elements" element={<Elements />} />
     </Routes>
   </Router>
 );
