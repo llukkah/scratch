@@ -3,11 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App.js";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import { iframe } from "./iframe.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router>
+    {/* <Route exact path="/" component={App} /> */}
     <App />
   </Router>
 );
