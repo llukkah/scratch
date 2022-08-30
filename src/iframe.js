@@ -6,8 +6,15 @@ class Iframes extends Component {
     return (
       <>
         <Header />
-        <p>Iframe full</p>
-        <p>Iframe empty</p>
+        <div className="iframeDiv">
+          <p>Iframe full</p>
+          <Iframe
+            class="iframeFull"
+            src="https://app.getreprise.com/launch/z6eGYbX/"
+          />
+          <p>Iframe empty</p>
+          <Iframe src="" />
+        </div>
       </>
     );
   }
