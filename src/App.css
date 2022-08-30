@@ -7,7 +7,10 @@ body {
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
-.iframeDiv,
+.iframeFull {
+  width: 100vw;
+  height: 250px;
+}
 .elementsFull,
 .elementsEmpty {
   display: flex;

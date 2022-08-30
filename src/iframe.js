@@ -9,7 +9,7 @@ class Iframes extends Component {
         <div className="iframeDiv">
           <p>Iframe full</p>
           <Iframe
-            class="iframeFull"
+            className="iframeFull"
             src="https://app.getreprise.com/launch/z6eGYbX/"
           />
           <p>Iframe empty</p>
